@@ -15,19 +15,31 @@ Dự án này là hệ thống kiểm thử tự động dành cho trang web Ora
 **2. Cấu trúc thư mục chính**
 
 ├── src
+
 │   ├── main
+
 │   │   └── resources
+
 │   │       └── log4j2.properties      // Cấu hình logging
+
 │   └── test
+
 │       └── java
+
 │           ├── Common                // Cấu hình driver, helper dùng chung
+
 │           ├── Pages                 // Page Object của các màn hình
+
 │           ├── TestCases             // Các class kiểm thử
+
 │           ├── ExtentReport          // Tạo báo cáo kiểm thử
+
 │           └── RunTestNG.xml         // File cấu hình chạy test
+
 ├── pom.xml                           // File khai báo Maven
 
 **3. Cài đặt môi trường**
+
 _3.1. Yêu cầu:_
    - Java JDK 15 hoặc cao hơn
    - Maven 3.6+
